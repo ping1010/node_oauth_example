@@ -64,14 +64,14 @@ You need to include the client credentials in request headers and the user crede
 
 	* **Content-Type**: `application/x-www-form-urlencoded`
 * **Body**
-	* `grant_type=password&username=pedroetb&password=password`
+	* `grant_type=password&username=zhupin&password=password`
 		* (contains 3 parameters: `grant_type`, `username` and `password`)
 
 For example, using `curl`:
 ```
 curl http://localhost:3000/oauth/token \
 	-d "grant_type=password" \
-	-d "username=pedroetb" \
+	-d "username="zhupin" \
 	-d "password=password" \
 	-H "Authorization: Basic YXBwbGljYXRpb246c2VjcmV0" \
 	-H "Content-Type: application/x-www-form-urlencoded"
