@@ -29,7 +29,7 @@ You need to add a client. For example:
 
 And you have to add a user too. For example:
 
-* **username**: `pedroetb`
+* **username**: `zhupin`
 * **password**: `password`
 
 #### With *client_credentials* grant
